@@ -1,0 +1,158 @@
+/*body,
+    html {
+      height: 100%;
+    }*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      header {
+        width: 100%;
+        height: 100px;
+        background-image: url("water2.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+      }
+      nav {
+        width: 100%;
+        height: 15vh;
+        background: darkgreen;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+      }
+      
+      nav .logo {
+        width: 25%;
+        text-align: center;
+      }
+      
+      nav .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      nav .menu a {
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      nav .menu li {
+        list-style: none;
+        padding: 26px 30px;
+      }
+      nav .menu li a {
+        text-decoration: none;
+      }
+      nav .menu li a:hover {
+        color: white;
+      }
+      
+      nav .menu a:first-child {
+        color: yellow;
+      }
+      .banner {
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+      }
+      .banner a {
+        text-decoration: none;
+        color: darkgreen;
+        font-size: 50px;
+      }
+      
+      body {
+        background-color: rgb(197, 192, 192);
+      }
+      .main {
+        margin-left: 100px;
+        max-height: 100vh;
+      }
+      .first {
+        display: flex;
+      }
+      .second {
+        display: flex;
+      }
+      .images {
+        width: 350px;
+        height: 250px;
+        margin: 50px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        box-shadow: 10px 10px 5px grey;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        text-align: center;
+        color: rgb(224, 218, 218);
+        font-size: 30px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding-top: 100px;
+      }
+      #img1 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/chennai.jpg);
+      }
+      #img2 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/Goa.jpg);
+      }
+      #img3 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/hyderabad.jpg);
+      }
+      #img4 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/kochi.jpg);
+      }
+      #img5 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/kolkata.jpg);
+      }
+      #img6 {
+        background-image: linear-gradient(
+            rgba(48, 48, 49, 0.7),
+            rgba(48, 48, 49, 0.7)
+          ),
+          url(/images/popular/mumbai.jpg);
+      }
+    
+      p {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 20px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        justify-content: center;
+      }
+      .images a {
+          text-decoration: none;
+          color: rgb(224, 218, 218);
+      }
